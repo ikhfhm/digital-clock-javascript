@@ -6,8 +6,21 @@
     <title>Digital Clock</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    
+<body onload="initClock()">
+    <div class="dateTime">
+        <div class="date">
+            <span id="dayName">Day</span>,
+            <span id="dayNum">00</span>
+            <span id="month">Month</span>
+            <span id="year">Year</span>
+        </div>
+        <div class="time">
+            <span id="hour">00</span>:
+            <span id="minutes">00</span>:
+            <span id="seconds">00</span>
+            <span id="period">AM</span>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
